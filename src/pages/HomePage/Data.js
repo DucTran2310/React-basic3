@@ -4,9 +4,11 @@ import Img3 from "../../images/svg-3.svg";
 import Img from "../../images/img.jpg";
 
 export const homeObjOne = {
-    primary: true,
+    // Set color btn
+    primary: true, 
+    // Set color background
     lightBg: false,
-    lightTopLine: true,
+    lightTopLine: false,
     lightText: true,
     lightTextDesc: true,
     topLine: 'Marketing Agency',
@@ -17,6 +19,7 @@ export const homeObjOne = {
     imgStart: '',
     img: Img1,
     alt: 'Credit Card',
+    // Set flex : flex-star or flex-end
     start: ''
 };
 
