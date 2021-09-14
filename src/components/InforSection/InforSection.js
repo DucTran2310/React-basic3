@@ -3,7 +3,10 @@ import { Link } from 'react-router-dom';
 import { Button, Container } from '../../globalStyles';
 import { Heading, Img, ImgWrapper, InfoColumn, InfoRow, InfoSec, Subtitle, TextWrapper, TopLine } from './InforSection.elements';
 
-const InforSection = ({lightBg,imgStart,lightTopLine,topLine,lightText,headline,lightTextDesc,description,primary,buttonLabel,start,img,alt}) => {
+const InforSection = (props) => {
+
+    const {lightBg,imgStart,lightTopLine,topLine,lightText,headline,lightTextDesc,description,primary,buttonLabel,start,img,alt} = props;
+
     return (
         <>
             <InfoSec lightBg={lightBg}>
